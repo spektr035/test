@@ -45,7 +45,7 @@ nav .right_end .icons {
   gap: 30px;
 }
 nav .right_end .icons .login {
-  background-color: #10b981;
+  background-color: #46a358;
   width: 110px;
   height: 30px;
   color: #fff;
@@ -58,7 +58,7 @@ nav .right_end .icons .login {
   text-align: center;
 }
 nav .right_end .icons .login:hover {
-  background-color: green;
+  background-color: #46a358;
 }
 nav .right_end .icons i {
   color: #fff;
@@ -91,7 +91,7 @@ header .left_start p {
   margin-top: 20px;
 }
 header .left_start h2 {
-  background-color: #10b981;
+  background-color: #46a358;
   width: 150px;
   height: 50px;
   font-size: 20px;
@@ -138,7 +138,7 @@ header .right_img {
   margin-top: 20px;
 }
 .betwewn_middle .price .filter {
-  background-color: #10b981;
+  background-color: #46a358;
   width: 130px;
   margin-top: 30px;
   color: #fff;
@@ -194,7 +194,7 @@ header .right_img {
   gap: 10px;
 }
 .more {
-  background-color: #10b981;
+  background-color: #46a358;
   width: 120px;
   height: 40px;
   text-align: center;
@@ -270,6 +270,7 @@ header .right_img {
   color: #10b981;
   cursor: pointer;
 }
+/* .personal{} */
 
 .wrapp {
   display: flex;
@@ -366,7 +367,7 @@ header .right_img {
   cursor: pointer;
 }
 .chance {
-  background-color: #10b981;
+  background-color: #46a358;
   width: 170px;
   height: 40px;
   text-align: center;
@@ -427,7 +428,7 @@ header .right_img {
   width: 100px;
   height: 30px;
   color: #fff;
-  background-color: #10b981;
+  background-color: #46a358;
   border-radius: 6px;
   text-align: center;
   padding-top: 5px;
@@ -436,21 +437,21 @@ header .right_img {
   cursor: pointer;
   background-color: whitesmoke;
   border: 1px solid silver;
-  color: #10b981;
+  color: #46a358;
 }
 .hola p {
   width: 130px;
   height: 30px;
-  color: #10b981;
+  color: #46a358;
   background-color: whitesmoke;
-  border: 1px solid #10b981;
+  border: 1px solid #46a358;
   border-radius: 6px;
   text-align: center;
   padding-top: 5px;
 }
 .hola p:hover {
   cursor: pointer;
-  background-color: #10b981;
+  background-color: #46a358;
   color: #fff;
 }
 .under {
