@@ -6,32 +6,70 @@
   font-family: "Poppins", sans-serif;
 }
 nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
+  background-color: #fff;
   justify-content: space-around;
   align-items: center;
   text-align: center;
-  margin-top: 10px;
+  /* margin-top: 5px; */
   padding: 10px 0px;
   box-shadow: 0px 1px 0px 0px silver;
 }
 nav h1 {
   cursor: pointer;
 }
+nav .uzb h4 {
+  color: #46a358;
+  text-decoration: none;
+}
+nav .uzb h4:hover {
+  cursor: pointer;
+}
+nav .home {
+  color: #46a358;
+}
+nav .home:hover {
+  color: green;
+}
 nav .between {
   display: flex;
-  gap: 40px;
+  gap: 30px;
   cursor: pointer;
-  margin-left: 200px;
+  margin-left: 100px;
 }
-nav .between h1:hover {
-  color: silver;
+nav .between :hover {
+  color: green;
 }
 nav .right_end {
   display: flex;
   gap: 40px;
 }
+nav .language {
+  color: #fff;
+  background-color: #46a358;
+  text-align: center;
+  padding-top: 7px;
+  border-radius: 15px;
+  width: 70px;
+  height: 30px;
+}
+nav .language:hover {
+  color: #46a358;
+  border: 1px dashed #46a358;
+  background-color: #fff;
+  cursor: pointer;
+}
+nav .til {
+  display: flex;
+  gap: 5px;
+  padding-left: 5px;
+}
 .wrap .inpt {
-  box-shadow: 0px 0px 1px 1px silver;
+  box-shadow: 0px 0px 1px 1px #46a358;
   border-radius: 4px;
 }
 .inpt input {
@@ -50,9 +88,9 @@ nav .right_end .icons {
 nav .right_end .icons .login {
   background-color: #46a358;
   width: 110px;
-  height: 30px;
+  height: 38px;
   color: #fff;
-  border-radius: 6px;
+  border-radius: 15px;
   padding-left: 10px;
   display: flex;
   cursor: pointer;
@@ -61,11 +99,9 @@ nav .right_end .icons .login {
   text-align: center;
 }
 nav .right_end .icons .login:hover {
-  background-color: #46a358;
-}
-nav .right_end .icons i {
-  color: #fff;
-  cursor: pointer;
+  background-color: #fff;
+  color: #46a358;
+  border: 1px dashed #46a358;
 }
 
 header {
@@ -94,7 +130,7 @@ header .left_start p {
   margin-top: 20px;
 }
 header .left_start h2 {
-  background-color: #46a358;
+  background-color: #10b981;
   width: 150px;
   height: 50px;
   font-size: 20px;
@@ -139,9 +175,10 @@ header .right_img {
   width: 400px;
   height: 400px;
   margin-top: 20px;
+  border-radius: 15px;
 }
 .betwewn_middle .price .filter {
-  background-color: #46a358;
+  background-color: #10b981;
   width: 130px;
   margin-top: 30px;
   color: #fff;
@@ -165,7 +202,7 @@ header .right_img {
 }
 .secon_middle .first {
   display: flex;
-  gap: 5px;
+  gap: 15px;
   margin: 5px 0px;
   flex-wrap: wrap;
   padding: 15px 6%;
@@ -174,16 +211,17 @@ header .right_img {
   padding: 5px 13px;
   width: 270px;
   height: 370px;
-  background-color: rgb(228, 228, 218);
   border: 1px solid silver;
   transition: all 1s;
   object-fit: cover;
 }
 .secon_middle .cards .img {
+  width: 240px;
+  height: 340px;
   margin-top: 15px;
 }
 .secon_middle .cards .img:hover {
-  width: 100%;
+  /* width: 100%; */
   transform: scale(1.1);
   cursor: pointer;
 }
@@ -197,7 +235,7 @@ header .right_img {
   gap: 10px;
 }
 .more {
-  background-color: #46a358;
+  background-color: #10b981;
   width: 120px;
   height: 40px;
   text-align: center;
@@ -273,7 +311,6 @@ header .right_img {
   color: #10b981;
   cursor: pointer;
 }
-/* .personal{} */
 
 .wrapp {
   display: flex;
@@ -370,7 +407,7 @@ header .right_img {
   cursor: pointer;
 }
 .chance {
-  background-color: #46a358;
+  background-color: #10b981;
   width: 170px;
   height: 40px;
   text-align: center;
@@ -430,43 +467,37 @@ header .right_img {
 .hola .adin {
   width: 100px;
   height: 30px;
-  color: #46a358;
-  background-color: whitesmoke;
+  color: #fff;
+  background-color: #10b981;
   border-radius: 6px;
   text-align: center;
   padding-top: 5px;
 }
 .hola .adin:hover {
   cursor: pointer;
-  background-color: #46a358;
+  background-color: whitesmoke;
   border: 1px solid silver;
-  color: #fff;
+  color: #10b981;
 }
 .hola p {
   width: 130px;
   height: 30px;
-  color: #46a358;
+  color: #10b981;
   background-color: whitesmoke;
-  border: 1px solid #46a358;
+  border: 1px solid #10b981;
   border-radius: 6px;
   text-align: center;
   padding-top: 5px;
 }
 .hola p:hover {
   cursor: pointer;
-  background-color: #46a358;
+  background-color: #10b981;
   color: #fff;
 }
 .under {
   display: flex;
   gap: 50px;
   margin-top: 50px;
-  transition: all 1s;
-  object-fit: cover;
-}
-.under img:hover {
-  transform: scale(1.1);
-  cursor: pointer;
 }
 .one_first img {
   width: 240px;

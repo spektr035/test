@@ -1,0 +1,145 @@
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  background-color: #fff;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  /* margin-top: 5px; */
+  padding: 10px 0px;
+  box-shadow: 0px 1px 0px 0px silver;
+}
+nav h1 {
+  cursor: pointer;
+}
+nav .uzb h4 {
+  color: #46a358;
+  text-decoration: none;
+}
+nav .uzb h4:hover {
+  cursor: pointer;
+}
+nav .home {
+  color: #46a358;
+}
+nav .home:hover {
+  color: green;
+}
+nav .between {
+  display: flex;
+  gap: 30px;
+  cursor: pointer;
+  margin-left: 100px;
+}
+nav .between :hover {
+  color: green;
+}
+nav .right_end {
+  display: flex;
+  gap: 40px;
+}
+nav .language {
+  color: #fff;
+  background-color: #46a358;
+  text-align: center;
+  padding-top: 7px;
+  border-radius: 15px;
+  width: 70px;
+  height: 30px;
+}
+nav .language:hover {
+  color: #46a358;
+  border: 1px dashed #46a358;
+  background-color: #fff;
+  cursor: pointer;
+}
+nav .til {
+  display: flex;
+  gap: 5px;
+  padding-left: 5px;
+}
+.wrap .inpt {
+  box-shadow: 0px 0px 1px 1px #46a358;
+  border-radius: 4px;
+}
+.inpt input {
+  margin-bottom: 5px;
+  /* width: 350px; */
+  height: 30px;
+  /* border: none; */
+  outline: none;
+  cursor: pointer;
+}
+
+nav .right_end .icons {
+  display: flex;
+  gap: 30px;
+}
+nav .right_end .icons .login {
+  background-color: #46a358;
+  width: 110px;
+  height: 38px;
+  color: #fff;
+  border-radius: 15px;
+  padding-left: 10px;
+  display: flex;
+  cursor: pointer;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+}
+nav .right_end .icons .login:hover {
+  background-color: #fff;
+  color: #46a358;
+  border: 1px dashed #46a358;
+}
+/* nav .right_end .icons i {
+  color: #fff;
+  cursor: pointer;
+} */
+header {
+  margin-top: 100px;
+}
+header .product {
+  display: flex;
+  margin: 50px 90px;
+  box-shadow: 0px 1px 0px 0px silver;
+  gap: 400px;
+}
+header .product .thre {
+  display: flex;
+  gap: 50px;
+}
+header .under_bet img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+header .under_bet {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+  gap: 100px;
+}
+header .under_bet .both {
+  display: flex;
+  gap: 15px;
+}
+.under_bet.helo {
+  align-items: center;
+}
+.under_bet .between .helo i:hover {
+  cursor: pointer;
+}
+.under_bet .rubish {
+  font-size: 30px;
+}

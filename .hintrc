@@ -15,6 +15,7 @@
       {
         "link-name": "off"
       }
-    ]
+    ],
+    "axe/language": "off"
   }
 }

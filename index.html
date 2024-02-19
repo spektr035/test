@@ -1,30 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css" />
-    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
-</svg>
-  </head>
-  <body>
-    <nav>
-      <div style="display: flex; align-items: center;" class="home">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title><link rel="stylesheet" href="style.css">
+     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+<body>
+     <nav>
+      <div style="display: flex; align-items: center;" class="homee">
         <img width="45px" height="45px" src="./imgs/logoOnl-removebg-preview.png" alt="">
-      <h1><span style="color: #46A358">Only Home</span></h1>
+      <h1>Only Home</h1>
+      <div style="margin-left: 40px;" class="uzb">
+<i style="font-size: 18px; color: #46A358;" class='bx bx-location-plus'></i>
+        <h4><a style="text-decoration: none; color: #46A358;" href="http://www.google.com/maps">Uzbekistan</a></h4>
       </div>
-      <div class="between">
-        <h1>Home</h1>
+      <div class="home">
+        <h1 style="margin-left: 100px;"><a href="index.html">Home</a></h1>
+        </div>
+      </div>
+      <div id="shopButton" class="between">
         <h1>Shop</h1>
+        <span></span>
+        <script>
+        document.getElementById('shopButton').addEventListener('click', function () {
+            window.scrollTo({
+                top: 550,
+                behavior: 'smooth' 
+            });
+        });
+    </script>
       </div>
 
       <div class="right_end">
+           <div class="language">
+          <div class="til">
+            <i class="bx bxs-chevron-down"></i>
+            <p>ENG</p>
+          </div>
+        </div>
         <div class="wrap">
         <div class="inpt">
-          <input placeholder="Search stools :)" type="search" />  
+          <input placeholder="Search" type="search" />  
         </div>
         </div>
 
@@ -32,8 +50,8 @@
 
         <div class="icons">
           <div class="login">
-            <box-icon name='user'></box-icon>
-            <h3>Login</h3>
+<i style="font-size: 21px;" class='bx bx-exit'></i>
+          <a style="text-decoration: none;" href="./login.html"><h3 style="color: #fff;">Login</h3> </a>  
           </div>
         </div>
       </div>
@@ -41,7 +59,7 @@
 
     <header>
       <div class="left_start">
-        <h5>Welcome to <span style="color: #46A358">Only Home</span></h5>
+        <h5>Welcome to <span style="color: #10b981">Only Home</span></h5>
         <h1>MAKE SIMPLE WITH US</h1>
         <p>WE MAKE IT EASY AND FAST FOR YOU TO PREPARE YOUR HOME WITH OUR HIGH-QUALITY AND AFFORDABLE PRODUCTS</p>
       </div>
@@ -76,15 +94,14 @@
         <div class="price">
           <h2>Price Range</h2>
           <img src="./imgs/range.png" alt="" />
-          <p>Price: <span style="color: #46A358">$39 - $1230</span></p>
+          <p>Price: <span style="color: green">$39 - $1230</span></p>
           <div class="filter">
             <a style="text-decoration: none; color: #fff" href="http://127.0.0.1:5500/index.html"><h2 style="color: #fff;">Filter</h2></a>
           </div>
         </div>
         <div class="img1"><img src="./imgs/sale.JPG" alt="" /></div>
       </div>
-
-        <div class="secon_middle">
+       <div class="secon_middle">
           <div class="first">
         <div class="cards">
           <div class="img">
@@ -226,9 +243,7 @@
         </div>
     </div>
     </div>
-
-
-        <div class="location">
+     <div class="location">
          <div class="first">
          <h1>ONLY HOME</h1>
          </div>
@@ -343,9 +358,7 @@
         </div>
       </div>
    </div>
-    
-
-<div style="display: flex; gap: 30px;" class="n4">
+   <div style="display: flex; gap: 30px;" class="n4">
   <div>
   <h3 style="margin-top: 5px;">New password</h3>
   <input placeholder="Creat new password" type="password">
@@ -367,7 +380,7 @@
 <div class="dining_room">
 <div class="left">
   <div class="rasmlar">
-  <img style="border-radius: 6px; box-shadow: 3px 3px 3px 3px silver;" src="./imgs/diningroom.jpg" alt="">
+  <img style="border-radius: 6px;" src="./imgs/diningroom.jpg" alt="">
 <div class="stars">
   <img src="./imgs/star.png" alt="">
     <img src="./imgs/star.png" alt="">
@@ -400,9 +413,9 @@
 </div>
 <div class="between">
   <div style="display: flex; gap: 15px; margin-top: 20px;" class="helo">
-    <box-icon style="width: 30px; height: 30px; background-color: #46a358; border-radius: 50%;" name='minus'></box-icon>
+    <box-icon style="width: 30px; height: 30px; background-color: #10b981; border-radius: 50%;" name='minus'></box-icon>
     <h2>1</h2>
-    <box-icon style="width: 30px; height: 30px; background-color: #46a358; border-radius: 50%;" name='plus' color='#ffffff' ></box-icon>
+    <box-icon style="width: 30px; height: 30px; background-color: #10b981; border-radius: 50%;" name='plus' color='#ffffff' ></box-icon>
   </div>
   <div class="hola">
     <p class="adin">BUY NOW</p>
@@ -420,25 +433,25 @@
 
 <div class="under">
   <div class="one_first">
-    <img style="box-shadow: 4px 4px 4px 4px silver;" src="./imgs/first.jpg" alt="">
+    <img src="./imgs/first.jpg" alt="">
     <div>
-    <p style="margin-top: 15px;">For dining room ...</p>
+    <p>For dining room ...</p>
         <p style="padding-top: 3px;">Cost: <span style="color: #10b981;">$119.00</span></p>
     </div>
   </div>
 
   <div class="one_first">
-    <img style="box-shadow: 4px 4px 4px 4px silver;" src="./imgs/dining1.jpg" alt="">
+    <img src="./imgs/dining1.jpg" alt="">
     <div>
-    <p style="margin-top: 15px;">For dining room ...</p>
+    <p>For dining room ...</p>
         <p style="padding-top: 3px;">Cost: <span style="color: #10b981;">$119.00</span></p>
     </div>
   </div>
 
   <div class="one_first">
-    <img style="box-shadow: 4px 4px 4px 4px silver;" src="./imgs/ding2.jpg" alt="">
+    <img src="./imgs/ding2.jpg" alt="">
     <div>
-    <p style="margin-top: 15px;">For dining room ...</p>
+    <p>For dining room ...</p>
     <p style="padding-top: 3px;">Cost: <span style="color: #10b981;">$119.00</span></p>
     <div style="background-color: crimson;" class="inc">
       <i class='bx bx-plus' style='color:#ffffff' ></i>
@@ -450,7 +463,7 @@
 </div>
 </div>
 
-<!-- <div class="two_ago">
+<div class="two_ago">
   <div class="left">
     <div class="nav">
       <h2>HOME/SHOP/SHOPPING Cart</h2>
@@ -460,7 +473,6 @@
       <h2>Quality Total</h2>
      </div>
     </div>
-
     <div class="one_line">
       <div class="img_latter">
       <img src="./imgs/dining1.jpg" alt="">
@@ -481,9 +493,6 @@
       </div>
     </div>
   </div>
-</div> -->
-
-
-<script src="./main.js"></script>
-  </body>
+</div>
+</body>
 </html>
