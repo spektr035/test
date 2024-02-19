@@ -176,6 +176,7 @@ header .right_img {
   height: 400px;
   margin-top: 20px;
   border-radius: 15px;
+  object-fit: cover;
 }
 .betwewn_middle .price .filter {
   background-color: #10b981;
@@ -202,7 +203,7 @@ header .right_img {
 }
 .secon_middle .first {
   display: flex;
-  gap: 15px;
+  gap: 20px;
   margin: 5px 0px;
   flex-wrap: wrap;
   padding: 15px 6%;
@@ -211,14 +212,14 @@ header .right_img {
   padding: 5px 13px;
   width: 270px;
   height: 370px;
-  border: 1px solid silver;
+  /* border: 1px solid silver; */
   transition: all 1s;
   object-fit: cover;
 }
 .secon_middle .cards .img {
-  width: 240px;
-  height: 340px;
-  margin-top: 15px;
+  width: 200px;
+  height: 300px;
+  /* margin-top: 15px; */
 }
 .secon_middle .cards .img:hover {
   /* width: 100%; */
@@ -229,7 +230,7 @@ header .right_img {
 .inner {
   display: flex;
   justify-content: space-between;
-  margin-top: 10px;
+  margin-top: 40px;
 }
 .secon_middle .inner p {
   gap: 10px;
