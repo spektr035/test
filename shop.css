@@ -116,7 +116,7 @@ nav .right_end .icons .login:hover {
   margin-top: 50px;
   display: flex;
   justify-content: space-around;
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
   padding: 40px 5px;
 }
 .dining_room img {
@@ -196,6 +196,11 @@ nav .right_end .icons .login:hover {
   height: 200px;
   border-radius: 10px;
   object-fit: cover;
+  transition: all 1s;
+}
+.one_first img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 .img_latter {
   display: flex;

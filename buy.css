@@ -143,3 +143,8 @@ header .under_bet .both {
 .under_bet .rubish {
   font-size: 30px;
 }
+.apply .input_apply {
+  border: 3px solid silver;
+  border-radius: 6px;
+  display: flex;
+}
