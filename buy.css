@@ -120,14 +120,15 @@ header .product .thre {
   gap: 50px;
 }
 header .under_bet img {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
   object-fit: cover;
 }
 header .under_bet {
   display: flex;
   align-items: center;
-  margin-left: 100px;
+  margin-left: 90px;
   gap: 100px;
 }
 header .under_bet .both {
@@ -147,4 +148,104 @@ header .under_bet .both {
   border: 3px solid silver;
   border-radius: 6px;
   display: flex;
+}
+.under_bet .rubish {
+  font-size: 30px;
+}
+.siveral {
+  display: flex;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  margin-bottom: 200px;
+  gap: 100px;
+}
+.apply .input_apply {
+  width: 300px;
+  height: 35px;
+  border: 2px solid silver;
+  border-radius: 6px;
+  display: flex;
+}
+.input_apply p {
+  background-color: #46a358;
+  border-radius: 10px;
+  width: 70px;
+  text-align: center;
+  padding: 4px 0px;
+  color: #fff;
+}
+.input_apply p:hover {
+  cursor: pointer;
+  background-color: green;
+}
+.apply .sub {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.apply .promo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.apply .service {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.apply .total {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.apply .checkout p:hover {
+  cursor: pointer;
+}
+.location {
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0px 1px 0px 0px silver;
+  margin: 50px 150px;
+  gap: 50px;
+}
+.location .first {
+  margin-top: 40px;
+}
+.location .second {
+  width: 110px;
+  text-align: center;
+}
+.location .third {
+  width: 110px;
+  text-align: center;
+}
+.location .fourth {
+  align-items: center;
+  text-align: center;
+}
+.location_two {
+  margin-left: 200px;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 100px;
+}
+.location_two .apps img {
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+  gap: 20px;
+}
+.location_two .accept {
+  text-align: center;
+  width: 190px;
+  font-weight: 300;
+}
+.buttom {
+  font-size: large;
+  margin-top: 20px;
+  text-align: center;
+}
+.buttom:hover {
+  cursor: pointer;
 }
