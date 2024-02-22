@@ -74,6 +74,10 @@ nav .til {
   display: flex;
   gap: 5px;
   padding-left: 5px;
+  color: #fff;
+}
+nav .til:hover {
+  color: #46a358;
 }
 .wrap .inpt {
   width: 150px;
@@ -123,14 +127,6 @@ nav .right_end .icons .login:hover {
   width: 550px;
   height: 550px;
 }
-.stars {
-  margin-left: 150px;
-  padding-top: 10px;
-}
-.stars img {
-  width: 35px;
-  height: 35px;
-}
 .right .second {
   display: flex;
   gap: 200px;
@@ -160,7 +156,7 @@ nav .right_end .icons .login:hover {
   width: 100px;
   height: 30px;
   color: #fff;
-  background-color: #10b981;
+  background-color: #46a358;
   border-radius: 6px;
   text-align: center;
   padding-top: 5px;
@@ -169,12 +165,12 @@ nav .right_end .icons .login:hover {
   cursor: pointer;
   background-color: whitesmoke;
   border: 1px solid silver;
-  color: #10b981;
+  color: #46a358;
 }
 .hola p {
   width: 130px;
   height: 30px;
-  color: #10b981;
+  color: #46a358;
   background-color: whitesmoke;
   border: 1px solid #10b981;
   border-radius: 6px;
@@ -183,7 +179,7 @@ nav .right_end .icons .login:hover {
 }
 .hola p:hover {
   cursor: pointer;
-  background-color: #10b981;
+  background-color: #46a358;
   color: #fff;
 }
 .under {

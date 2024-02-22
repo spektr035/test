@@ -41,6 +41,7 @@ nav .between {
   gap: 30px;
   cursor: pointer;
   margin-left: 100px;
+  color: #46a358;
 }
 nav .between:hover {
   color: green;
@@ -50,11 +51,11 @@ nav .right_end {
   gap: 40px;
 }
 .wrap .inpt {
-  box-shadow: 0px 0px 1px 1px silver;
-  border-radius: 4px;
+  width: 150px;
+  border-bottom: 2px solid black;
 }
 .inpt input {
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
   /* width: 350px; */
   height: 30px;
   /* border: none; */
@@ -118,12 +119,13 @@ header .left_startt {
   width: 550px;
   font-size: 25px;
 }
-header .rightt_img {
+header .rightt_img img {
   display: flex;
   object-fit: cover;
   width: 550px;
   height: 550px;
   margin-top: 80px;
+  border-radius: 20px;
 }
 .categories {
   margin-top: 50px;
@@ -189,4 +191,3 @@ header .rightt_img {
 .cartalar {
   gap: 30px;
 }
-
