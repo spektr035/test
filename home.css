@@ -176,6 +176,23 @@ header .rightt_img img {
   gap: 50px;
   padding-bottom: 10px;
 }
+.location .first {
+  margin-top: 20px;
+}
+.location .second {
+  /* width: 110px; */
+  padding-bottom: 1px;
+  text-align: center;
+}
+.location .third {
+  /* width: 110px; */
+  text-align: center;
+}
+.location .fourth {
+  align-items: center;
+  text-align: center;
+}
+
 .location_two {
   margin-left: 50px;
   display: flex;
