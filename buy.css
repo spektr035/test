@@ -1,0 +1,376 @@
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  background-color: #fff;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  /* margin-top: 5px; */
+  padding: 10px 0px;
+  box-shadow: 0px 1px 0px 0px silver;
+}
+nav h1 {
+  cursor: pointer;
+}
+nav .uzb h4 {
+  color: #46a358;
+  text-decoration: none;
+}
+nav .uzb h4:hover {
+  cursor: pointer;
+}
+nav .home {
+  color: #46a358;
+}
+nav .home:hover {
+  color: green;
+}
+nav .between {
+  display: flex;
+  gap: 30px;
+  cursor: pointer;
+  margin-left: 100px;
+  color: #46a358;
+}
+nav .between :hover {
+  color: green;
+}
+nav .right_end {
+  display: flex;
+  gap: 40px;
+}
+nav .language {
+  color: #fff;
+  background-color: #46a358;
+  text-align: center;
+  padding-top: 7px;
+  border-radius: 15px;
+  width: 70px;
+  height: 30px;
+}
+nav .language:hover {
+  color: #fff;
+  /* border: 1px dashed #46a358; */
+  background-color: green;
+  cursor: pointer;
+}
+nav .til {
+  display: flex;
+  gap: 5px;
+  padding-left: 5px;
+}
+.wrap .inpt {
+  width: 150px;
+  border-bottom: 2px solid black;
+}
+.inpt input {
+  /* width: 350px; */
+  height: 30px;
+  /* border: none; */
+  outline: none;
+  cursor: pointer;
+}
+
+nav .right_end .icons {
+  display: flex;
+  gap: 30px;
+}
+nav .right_end .icons .login {
+  background-color: #46a358;
+  width: 110px;
+  height: 38px;
+  color: #fff;
+  border-radius: 15px;
+  padding-left: 10px;
+  display: flex;
+  cursor: pointer;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+}
+nav .right_end .icons .login h3 {
+  color: #fff;
+}
+nav .right_end .icons .login h3:hover {
+  color: #46a358;
+}
+nav .right_end .icons .login:hover {
+  background-color: #fff;
+  color: #46a358;
+  border: 1px dashed #46a358;
+}
+/* nav .right_end .icons i {
+  color: #fff;
+  cursor: pointer;
+} */
+header {
+  margin-top: 100px;
+}
+header .product {
+  display: flex;
+  margin: 50px 90px;
+  box-shadow: 0px 1px 0px 0px silver;
+  gap: 400px;
+}
+header .product .thre {
+  display: flex;
+  gap: 50px;
+}
+header .under_bet img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+header .under_bet {
+  display: flex;
+  align-items: center;
+  margin-left: 90px;
+  gap: 100px;
+}
+header .under_bet .both {
+  display: flex;
+  gap: 15px;
+}
+.under_bet.helo {
+  align-items: center;
+}
+.under_bet .between .helo i:hover {
+  cursor: pointer;
+}
+.under_bet .rubish {
+  font-size: 30px;
+}
+.apply .input_apply {
+  border: 3px solid silver;
+  border-radius: 6px;
+  display: flex;
+}
+.under_bet .rubish {
+  font-size: 30px;
+}
+.siveral {
+  display: flex;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  margin-bottom: 200px;
+  gap: 100px;
+}
+.apply .input_apply {
+  width: 300px;
+  height: 35px;
+  border: 2px solid silver;
+  border-radius: 6px;
+  display: flex;
+}
+.input_apply p {
+  background-color: #46a358;
+  border-radius: 10px;
+  width: 70px;
+  text-align: center;
+  padding: 4px 0px;
+  color: #fff;
+}
+.input_apply p:hover {
+  cursor: pointer;
+  background-color: green;
+}
+.apply .sub {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.apply .promo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.apply .service {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.apply .total {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.apply .checkout p:hover {
+  cursor: pointer;
+}
+.location {
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0px 1px 0px 0px silver;
+  margin: 50px 150px;
+  gap: 50px;
+}
+.location .first {
+  margin-top: 20px;
+}
+.location .second {
+  padding-bottom: 15px;
+  text-align: center;
+}
+.location .third {
+  /* width: 110px; */
+  text-align: center;
+}
+.location .fourth {
+  align-items: center;
+  text-align: center;
+}
+.location_two {
+  /* margin-left: 10px; */
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 100px;
+}
+/* .location_two .apps i {
+  font-size: 30px;
+  align-items: center;
+  border-radius: 5px;
+  gap: 100px;
+} */
+/* .location_two .ap_icon {
+  font-size: 30px;
+  gap: 40px;
+} */
+
+.social-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.social-button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  width: 64px;
+  height: 64px;
+  text-decoration: none;
+  border-radius: 100%;
+  background: #fff;
+  text-align: center;
+}
+.social-button::after {
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: 50%;
+  display: block;
+  width: 0;
+  height: 0;
+  border-radius: 100%;
+  transition: 0.3s;
+}
+.social-button:focus,
+.social-button:hover {
+  color: #fff;
+}
+.social-button:focus::after,
+.social-button:hover::after {
+  width: calc(100% + 2px);
+  height: calc(100% + 2px);
+  margin-left: calc(-50% - 1px);
+}
+.social-button i,
+.social-button svg {
+  position: relative;
+  z-index: 1;
+  transition: 0.3s;
+}
+.social-button i {
+  font-size: 25.6px;
+}
+.social-button svg {
+  height: 40%;
+  width: 40%;
+}
+.social-button--mail {
+  color: #0072c6;
+}
+.social-button--mail::after {
+  background: #0072c6;
+}
+.social-button--facebook {
+  color: #3b5999;
+}
+.social-button--facebook::after {
+  background: #3b5999;
+}
+.social-button--linkedin {
+  color: #0077b5;
+}
+.social-button--linkedin::after {
+  background: #0077b5;
+}
+.social-button--github {
+  color: #6e5494;
+}
+.social-button--github::after {
+  background: #6e5494;
+}
+.social-button--codepen {
+  color: #212121;
+}
+.social-button--codepen::after {
+  background: #212121;
+}
+.social-button--steam {
+  color: #7da10e;
+}
+.social-button--steam::after {
+  background: #7da10e;
+}
+.social-button--snapchat {
+  color: #eec900;
+}
+.social-button--snapchat::after {
+  background: #eec900;
+}
+.social-button--twitter {
+  color: #55acee;
+}
+.social-button--twitter::after {
+  background: #55acee;
+}
+.social-button--instagram {
+  color: #e4405f;
+}
+.social-button--instagram::after {
+  background: #e4405f;
+}
+.social-button--npmjs {
+  color: #c12127;
+}
+.social-button--npmjs::after {
+  background: #c12127;
+}
+.location_two .accept {
+  text-align: center;
+  width: 190px;
+  font-weight: 300;
+}
+.buttom {
+  font-size: large;
+  margin-top: 20px;
+  text-align: center;
+}
+.buttom:hover {
+  cursor: pointer;
+}
