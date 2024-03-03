@@ -72,9 +72,9 @@ nav .language {
   height: 30px;
 }
 nav .language:hover {
-  color: #46a358;
-  border: 1px dashed #46a358;
-  background-color: #fff;
+  color: #fff;
+  border: 1px dashed black;
+  background-color: green;
   cursor: pointer;
 }
 nav .til {
@@ -91,7 +91,6 @@ nav .right_end .icons .login {
   background-color: #46a358;
   width: 110px;
   height: 35px;
-  color: #fff;
   border-radius: 15px;
   padding-left: 10px;
   display: flex;
@@ -101,7 +100,8 @@ nav .right_end .icons .login {
   text-align: center;
 }
 nav .right_end .icons .login:hover {
-  background-color: #46a358;
+  background-color: green;
+  border: 1px dashed black;
 }
 nav .right_end .icons i {
   color: #fff;
@@ -143,7 +143,7 @@ header .rightt_img img {
 .cards {
   width: 270px;
   height: 250px;
-  border: solid silver;
+  border: solid #46a358;
   border-radius: 15px;
   margin-top: 20px;
 }
@@ -168,11 +168,18 @@ header .rightt_img img {
   transform: scale(1.1);
   cursor: pointer;
 }
+footer {
+  margin: 5px 50px;
+  border-radius: 20px;
+  background-color: rgb(245, 244, 244);
+}
 .location {
   display: flex;
   justify-content: space-around;
   box-shadow: 0px 1px 0px 0px silver;
-  margin: 150px 150px;
+  margin: 20px 150px;
+  padding-top: 70px;
+  margin-top: 100px;
   gap: 50px;
   padding-bottom: 10px;
 }
@@ -194,10 +201,16 @@ header .rightt_img img {
 }
 
 .location_two {
-  margin-left: 50px;
+  /* margin-left: 0px; */
+  margin-bottom: 20px;
+  margin: 0px 50px;
+  border-radius: 15px;
+  height: 250px;
+  align-items: center;
   display: flex;
   justify-content: space-between;
   padding: 10px 100px;
+  /* background-color: rgb(245, 244, 244); */
 }
 /* .location_two .apps img {
   width: 25px;
@@ -221,9 +234,10 @@ header .rightt_img img {
   height: 64px;
   text-decoration: none;
   border-radius: 100%;
-  background: #fff;
+  background: rgb(245, 244, 244);
   text-align: center;
 }
+/* rgb(224, 223, 223) */
 .social-button::after {
   content: "";
   position: absolute;
