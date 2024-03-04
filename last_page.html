@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order Confirmation</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #ffffff;
+        margin: 0;
+        padding: 0;
+      }
+
+      #order-confirmation,
+      #ok-button {
+        background-color: #008000;
+        color: white;
+        padding: 0.5rem;
+        text-align: center;
+        border-radius: 0.5rem;
+        margin: 150px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+      }
+
+      #order-details {
+        background-color: #ffffff;
+        color: #000000;
+        padding: 0.5rem;
+        text-align: left;
+        border-radius: 0.25rem;
+        margin: 0.5rem;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+      }
+
+      #ok-button {
+        display: inline-block;
+        font-size: 1rem;
+        margin: 0.25rem 0.125rem;
+        cursor: pointer;
+        border: none;
+        transition: background-color 0.3s ease;
+      }
+
+      #ok-button:hover {
+        background-color: #006600;
+      }
+    </style>
+  </head>
+  <body>
+    <main id="order-confirmation" role="main">
+      <h1>THANK YOU</h1>
+      <p>Your order has been received</p>
+      <p>Order Number: 7834</p>
+      <p>Date: 24 February, 2024</p>
+      <p>Total: £99.00</p>
+      <p>Payment Card: VISA Card</p>
+      <section id="order-details" role="group">
+        <figcaption><h2>Order Details:</h2></figcaption>
+        <p>Products Nordli 3 (SKU: 478901738378) x1</p>
+        <p>Subtotal: $119.00</p>
+        <p>Promo Code Discount: $0.00</p>
+        <p>Service: $1.50</p>
+        <p>Total: $120.50</p>
+      </section>
+      <p>
+        Your order is currently being processed. You will receive an order
+        confirmation email shortly with expected delivery date for your items.
+      </p>
+      <a href="/Home.prect.html"
+        ><button id="ok-button" aria-label="Acknowledge Order Confirmation">
+          OK
+        </button></a
+      >
+    </main>
+    <script>
+      //   document
+      //     .getElementById("ok-button")
+      //     .addEventListener("click", function () {
+      //       alert("Order confirmation acknowledged. Thank you for your order!");
+      //     });
+    </script>
+  </body>
+</html>

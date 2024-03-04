@@ -73,7 +73,7 @@ nav .language {
 }
 nav .language:hover {
   color: #fff;
-  border: 1px dashed black;
+  /* border: 1px dashed black; */
   background-color: green;
   cursor: pointer;
 }
@@ -101,7 +101,7 @@ nav .right_end .icons .login {
 }
 nav .right_end .icons .login:hover {
   background-color: green;
-  border: 1px dashed black;
+  /* border: 1px dashed black; */
 }
 nav .right_end .icons i {
   color: #fff;
@@ -184,7 +184,11 @@ footer {
   padding-bottom: 10px;
 }
 .location .first {
-  margin-top: 20px;
+  margin-top: 10px;
+  align-items: center;
+}
+.location .first .same {
+  align-items: center;
 }
 .location .second {
   /* width: 110px; */

@@ -67,9 +67,9 @@ nav .language {
   height: 30px;
 }
 nav .language:hover {
-  color: #46a358;
-  border: 1px dashed #46a358;
-  background-color: #fff;
+  color: #fff;
+  /* border: 1px dashed #46a358; */
+  background-color: green;
   cursor: pointer;
 }
 nav .til {
@@ -89,7 +89,6 @@ nav .til {
   outline: none;
   cursor: pointer;
 }
-
 nav .right_end .icons {
   display: flex;
   gap: 30px;
@@ -108,16 +107,14 @@ nav .right_end .icons .login {
   text-align: center;
 }
 nav .right_end .icons .login:hover {
-  background-color: #fff;
-  color: #46a358;
-  border: 1px dashed #46a358;
+  background-color: green;
 }
 
 header {
   display: flex;
   justify-content: space-around;
   margin-top: 50px;
-  background-color: rgb(248, 247, 247);
+  background-color: rgb(245, 244, 244);
   height: 400px;
 }
 header .left_start {
@@ -175,28 +172,44 @@ header .right_img {
   justify-content: space-between;
 }
 .betwewn_middle .one:hover {
-  color: #10b981;
+  color: #46a358;
   cursor: pointer;
 }
 .betwewn_middle .price {
   margin-top: 40px;
   font-size: larger;
 }
-.betwewn_middle .img1 img {
-  width: 400px;
-  height: 400px;
+.betwewn_middle .img1 {
+  background-image: url(./real_ing/Rectangle\ 11.png);
+  width: 300px;
+  background-repeat: no-repeat;
+  height: 300px;
   margin-top: 20px;
   border-radius: 15px;
   object-fit: cover;
 }
-.betwewn_middle .price .filter {
-  background-color: #10b981;
-  width: 130px;
-  margin-top: 30px;
-  color: #fff;
-  border-radius: 6px;
-  text-align: center;
+.betwewn_middle .img1 img {
+  width: 300px;
+  height: 300px;
+  margin-top: 20px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+.betwewn_middle .img1 .mmm {
+  display: flex;
+  padding: 230px 40px;
+  gap: 20px;
   align-items: center;
+}
+.betwewn_middle .price .filter {
+  background-color: #46a358;
+  width: 120px;
+  height: 40px;
+  margin-top: 30px;
+  padding-top: 5px;
+  color: #fff;
+  border-radius: 10px;
+  text-align: center;
 }
 .betwewn_middle .price .filter:hover {
   background-color: green;
@@ -247,12 +260,11 @@ header .right_img {
   gap: 10px;
 }
 .more {
-  background-color: #10b981;
+  background-color: #46a358;
   width: 120px;
   height: 40px;
   text-align: center;
-  color: #fff;
-  border-radius: 5px;
+  border-radius: 10px;
   margin-left: 760px;
   padding-top: 2px;
 }
@@ -261,6 +273,11 @@ header .right_img {
   cursor: pointer;
 }
 footer {
+  /* margin: 5px 50px;
+  border-radius: 20px;
+  background-color: rgb(245, 244, 244); */
+}
+footer .footerr {
   margin: 5px 50px;
   border-radius: 20px;
   background-color: rgb(245, 244, 244);
@@ -274,8 +291,9 @@ footer {
   margin-top: 100px;
   gap: 50px;
 }
-.location .first {
-  margin-top: 20px;
+.location .first .same {
+  display: flex;
+  align-items: center;
 }
 .location .second {
   /* width: 110px; */
@@ -421,16 +439,17 @@ footer {
   text-align: center;
   width: 190px;
   font-weight: 300;
+  align-items: center;
 }
-.cartalar {
+.accept .cartalar {
   display: flex;
   align-items: center;
-  margin-right: 100px;
-  gap: 30px;
+  padding-right: 100px;
+  gap: 20px;
 }
 .buttom {
   font-size: large;
-  margin-top: 20px;
+  margin-top: 50px;
   text-align: center;
 }
 .buttom:hover {
@@ -527,7 +546,7 @@ footer {
   gap: 10px;
 }
 .change h3 {
-  background-color: #10b981;
+  background-color: #46a358;
   width: 90px;
   height: 30px;
   padding-top: 4px;
@@ -547,7 +566,7 @@ footer {
   cursor: pointer;
 }
 .chance {
-  background-color: #10b981;
+  background-color: #46a358;
   width: 170px;
   height: 40px;
   text-align: center;
@@ -607,17 +626,17 @@ footer {
 .hola .adin {
   width: 100px;
   height: 30px;
-  color: #fff;
-  background-color: #10b981;
+  color: #46a358;
+  /* background-color: #46a358; */
   border-radius: 6px;
   text-align: center;
   padding-top: 5px;
 }
 .hola .adin:hover {
   cursor: pointer;
-  background-color: whitesmoke;
+  background-color: #46a358;
   border: 1px solid silver;
-  color: #10b981;
+  color: #fff;
 }
 .hola p {
   width: 130px;
@@ -631,7 +650,7 @@ footer {
 }
 .hola p:hover {
   cursor: pointer;
-  background-color: #10b981;
+  background-color: #46a358;
   color: #fff;
 }
 .under {

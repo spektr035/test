@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 * {
   border: 0;
   margin: 0;
@@ -31,15 +32,23 @@ nav .uzb h4:hover {
 nav .home {
   color: #46a358;
 }
-nav .home:hover {
+nav .home :hover {
   color: green;
+}
+nav .home span {
+  display: flex;
+  background-color: #46a358;
+  width: 60px;
+  position: absolute;
+  margin-top: 45px;
+  height: 3px;
 }
 nav .between {
   display: flex;
+  color: #46a358;
   gap: 30px;
   cursor: pointer;
   margin-left: 100px;
-  color: #46a358;
 }
 nav .between :hover {
   color: green;
@@ -73,13 +82,13 @@ nav .til {
   border-bottom: 2px solid black;
 }
 .inpt input {
+  /* margin-bottom: 5px; */
   /* width: 350px; */
   height: 30px;
   /* border: none; */
   outline: none;
   cursor: pointer;
 }
-
 nav .right_end .icons {
   display: flex;
   gap: 30px;
@@ -97,58 +106,86 @@ nav .right_end .icons .login {
   align-items: center;
   text-align: center;
 }
-nav .right_end .icons .login h3 {
-  color: #fff;
-}
-nav .right_end .icons .login h3:hover {
-  color: #fff;
-}
 nav .right_end .icons .login:hover {
   background-color: green;
-  color: #fff;
-  /* border: 1px dashed #46a358; */
 }
-/* nav .right_end .icons i {
-  color: #fff;
-  cursor: pointer;
-} */
 header {
   margin-top: 100px;
-}
-header .product {
   display: flex;
-  margin: 50px 90px;
-  box-shadow: 0px 1px 0px 0px silver;
-  gap: 400px;
+  justify-content: start;
 }
-header .product .thre {
+.deliver {
+  margin: 0px 100px;
+}
+.deliver .first input {
+  width: 250px;
+  height: 40px;
+  padding-top: 5px;
+
+  border: 3px solid silver;
+  border-radius: 16px;
+  outline: none;
+}
+.deliver .second {
+  margin-top: 20px;
+}
+.deliver .second input {
+  width: 250px;
+  height: 40px;
+  padding-top: 5px;
+  margin-top: 20px;
+  border: 3px solid silver;
+  border-radius: 16px;
+  outline: none;
+}
+.deliver .third {
+  margin-top: 20px;
+}
+.deliver .third input {
+  width: 250px;
+  height: 40px;
+  padding-top: 5px;
+
+  border: 3px solid silver;
+  border-radius: 16px;
+  outline: none;
+}
+.deliver .fourth {
+  margin-top: 20px;
+}
+.deliver .fourth input {
+  width: 250px;
+  height: 40px;
+  padding-top: 5px;
+  border: 3px solid silver;
+  border-radius: 16px;
+  outline: none;
+}
+.orb {
   display: flex;
-  gap: 50px;
+  gap: 200px;
+  margin-top: 10px;
 }
-header .under_bet img {
-  width: 50px;
-  height: 50px;
-  border-radius: 10px;
-  object-fit: cover;
+header {
+  margin-top: 20px;
 }
-header .under_bet {
+header .right .birinchi {
   display: flex;
-  align-items: center;
-  margin-left: 90px;
   gap: 100px;
 }
-header .under_bet .both {
+header .nordik {
   display: flex;
-  gap: 15px;
-}
-.under_bet.helo {
+  gap: 25px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  width: 400px;
+  height: 50px;
+  margin-top: 10px;
   align-items: center;
 }
-.under_bet .between .helo i:hover {
-  cursor: pointer;
-}
-.under_bet .rubish {
-  font-size: 30px;
+header .right {
+  display: flex;
+  gap: 200px;
 }
 .apply .input_apply {
   border: 3px solid silver;
@@ -209,6 +246,9 @@ header .under_bet .both {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
+}
+.cartalar:hover {
+  cursor: pointer;
 }
 .apply .checkout p:hover {
   cursor: pointer;

@@ -65,9 +65,8 @@ nav .language {
   font-size: 13px;
 }
 nav .language:hover {
-  color: #46a358;
-  border: 1px dashed #46a358;
-  background-color: #fff;
+  color: #fff;
+  background-color: green;
   cursor: pointer;
 }
 nav .til {
@@ -75,9 +74,6 @@ nav .til {
   gap: 5px;
   padding-left: 5px;
   color: #fff;
-}
-nav .til:hover {
-  color: #46a358;
 }
 .wrap .inpt {
   width: 150px;
@@ -112,9 +108,9 @@ nav .right_end .icons .login {
   text-align: center;
 }
 nav .right_end .icons .login:hover {
-  background-color: #fff;
-  color: #46a358;
-  border: 1px dashed #46a358;
+  background-color: green;
+  color: #fff;
+  /* border: 1px dashed #46a358; */
 }
 .dining_room {
   margin-top: 50px;
@@ -298,6 +294,20 @@ nav .right_end .icons .login:hover {
   gap: 20px;
 }
 .location .first {
+  margin-top: 10px;
+  align-items: center;
+}
+.location .first .same {
+  align-items: center;
+  display: flex;
+}
+section {
+  margin: 5px 50px;
+  padding-top: 50px;
+  border-radius: 20px;
+  background-color: rgb(245, 244, 244);
+}
+.location .first {
   margin-top: 20px;
 }
 .location .second {
@@ -339,7 +349,7 @@ nav .right_end .icons .login:hover {
   height: 64px;
   text-decoration: none;
   border-radius: 100%;
-  background: #fff;
+  background-color: rgb(245, 244, 244);
   text-align: center;
 }
 .social-button::after {
