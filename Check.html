@@ -164,20 +164,10 @@
                 />
               </div>
             </div>
+          <div>
             <div class="checkout">
-              <a style="text-decoration: none" href="./last_page.html">
-                <p
-                  style="
-                    background-color: #46a358;
-                    height: 40px;
-                    text-align: center;
-                    margin-top: 20px;
-                    padding-top: 10px;
-                    color: #fff;
-                    border-radius: 10px;
-                  "
-                >
-                  Place Order
+              <a style="text-decoration: none" href="#">                
+                     <button id="myBtn">Place order</button>
                 </p></a
               >
             </div>
@@ -300,5 +290,150 @@
         @2023 <span style="color: #10b981">OnlyHome.</span>All Rishts Reserved
       </p>
     </div>
+  </body>
+  
+    <script>
+      var modal = document.getElementById("myModal");
+
+      var btn = document.getElementById("myBtn");
+
+      var span = document.getElementsByClassName("close")[0];
+
+      btn.onclick = function () {
+        modal.style.display = "block";
+      };
+
+      span.onclick = function () {
+        modal.style.display = "none";
+      };
+
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      };
+    </script>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal Example</title>
+    <style>
+      /* CSS for the modal */
+      .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+        padding-top: 60px; /* Location of the modal */
+      }
+
+      /* Modal content */
+      .modal-content {
+        background-color: #fefefe;
+        margin: 5% auto; /* 5% from the top and centered */
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%; /* Could be more or less, depending on screen size */
+      }
+
+      /* Close button */
+      .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+      }
+
+      .close:hover,
+      .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Button to open the modal -->
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <main id="order-confirmation" role="main">
+    <h1>THANK YOU</h1>
+    <p>Your order has been received</p>
+    <p>Order Number: 7834</p>
+    <p>Date: 24 February, 2024</p>
+    <p>Total: £99.00</p>
+    <p>Payment Card: VISA Card</p>
+    <section id="order-details" role="group">
+        <figcaption><h2>Order Details:</h2></figcaption>
+        <p>Products Nordli 3 (SKU: 478901738378) x1</p>
+        <p>Subtotal: $119.00</p>
+        <p>Promo Code Discount: $0.00</p>
+        <p>Service: $1.50</p>
+        <p>Total: $120.50</p>
+    </section>
+    <p>Your order is currently being processed. You will receive an order confirmation email shortly with expected delivery date for your items.</p>
+    <button id="show-modal-button" aria-label="Show Order Confirmation">Show Order Confirmation</button>
+</main>
+
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h1>THANK YOU</h1>
+        <p>Your order has been received</p>
+        <p>Order Number: 7834</p>
+        <p>Date: 24 February, 2024</p>
+        <p>Total: £99.00</p>
+        <p>Payment Card: VISA Card</p>
+        <section id="order-details" role="group">
+            <figcaption><h2>Order Details:</h2></figcaption>
+            <p>Products Nordli 3 (SKU: 478901738378) x1</p>
+            <p>Subtotal: $119.00</p>
+            <p>Promo Code Discount: $0.00</p>
+            <p>Service: $1.50</p>
+            <p>Total: $120.50</p>
+        </section>
+        <p>Your order is currently being processed. You will receive an order confirmation email shortly with expected delivery date for your items.</p>
+        <button id="ok-button" aria-label="Acknowledge Order Confirmation">OK</button>
+    </div>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      var modal = document.getElementById("myModal");
+
+      var btn = document.getElementById("myBtn");
+
+      var span = document.getElementsByClassName("close")[0];
+
+      btn.onclick = function () {
+        modal.style.display = "block";
+      };
+
+      span.onclick = function () {
+        modal.style.display = "none";
+      };
+
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      };
+    </script>
   </body>
 </html>
